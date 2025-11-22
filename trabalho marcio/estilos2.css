@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo\ do\ criador.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #111;
+}
+
+.content-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.titulo {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px black; 
+}
+
+.img-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .img-container img {
+        width: 200px;
+    }
+}
+
+
